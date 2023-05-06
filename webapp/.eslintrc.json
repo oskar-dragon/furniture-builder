@@ -1,4 +1,11 @@
 {
   "plugins": ["prettier"],
-  "extends": ["airbnb", "airbnb/hooks", "airbnb-typescript", "next/core-web-vitals", "plugin:prettier/recommended"]
+  "extends": [
+    "airbnb",
+    "airbnb/hooks",
+    "airbnb-typescript",
+    "next/core-web-vitals",
+    "next/babel",
+    "plugin:prettier/recommended"
+  ]
 }
