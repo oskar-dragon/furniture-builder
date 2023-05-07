@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import { Button } from '../ui/Button';
-import { cn } from '@/lib/utils';
+import { cn } from '@/utils/cn';
 import { usePathname } from 'next/navigation';
 import { VariantProps, cva } from 'class-variance-authority';
 import { useRouter } from 'next/navigation';
