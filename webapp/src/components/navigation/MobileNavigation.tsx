@@ -10,7 +10,7 @@ import { useRouter } from 'next/navigation';
 const linkVariants = cva('text-sm text-gray-600 height-full block transition-all ease-in-out', {
   variants: {
     isActive: {
-      true: ['text-orange-500'],
+      true: ['text-accent-foreground'],
     },
   },
   defaultVariants: {

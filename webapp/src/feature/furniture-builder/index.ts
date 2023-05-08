@@ -1,2 +1,2 @@
-export { Configurator } from './components/Configurator';
+export { DesktopConfigurator } from './components/configurator/DesktopConfigurator';
 export { FurnitureHeader } from './components/FurnitureHeader';

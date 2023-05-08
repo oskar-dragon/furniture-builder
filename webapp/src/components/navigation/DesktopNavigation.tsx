@@ -8,7 +8,7 @@ import { usePathname } from 'next/navigation';
 const linkVariants = cva('text-sm text-gray-600 height-full transition-all ease-in-out', {
   variants: {
     isActive: {
-      true: ['text-orange-500'],
+      true: ['text-accent-foreground'],
     },
   },
   defaultVariants: {
